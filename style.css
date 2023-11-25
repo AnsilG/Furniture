@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+
+
+
+
+body {
+    background-color: white;
+    font-family: 'Play', sans-serif;
+
+}
+
+nav {
+    background-color: rgba(10, 10, 10, 0.312);
+    /* background-color: transparent; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    top: 0px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: slateblue;
+}
+
+image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    color: rgb(71, 44, 19);
+    top: 20%;
+    left: 5%;
+}
+
+/* ect */
+.image1 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.overlay1 {
+    position: absolute;
+    color: rgb(71, 44, 19);
+    top: 580%;
+    left: 35%;
+}
+
+/* ect */
+
+/* ect2 */
+.overlay2 {
+    position: absolute;
+    color: rgb(71, 44, 19);
+    top: 650%;
+    left: 10%;
+}
+
+/* ect2 */
+
+
+
+/* .inner{
+    margin-right: 1500px;
+} */
+h1 {
+    color: tomato;
+    text-shadow: 4px 5px 7px rgb(150, 70, 70);
+
+}
+
+h2 {
+    color: rgb(30, 29, 29);
+    font-family: Arial;
+    text-shadow: 4px 5px 7px rgb(150, 70, 70);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+    display: flex;
+}
+
+.row :hover {
+    border: none;
+    /* box-shadow: 4px 5px 6px 2px rgb(220, 108, 4); */
+    background-position: left bottom;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    border: 2px double brown;
+    margin: 20px;
+
+    background-size: 100% 200%;
+    transition: all 0.8;
+}
+
+.box1 {
+    width: 300px;
+    height: 250px;
+    /* border: 2px double rgb(82, 43, 0); */
+    margin: 20px;
+    background-color: white;
+    background-size: 100% 200%;
+    transition: all 0.8;
+}
+
+
+img {
+    width: 100%;
+
+}
+
+.box p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.box h3 {
+    text-align: center;
+    margin: 10px;
+    color: tomato;
+}
+
+.modal-content {
+    background-color: white;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.list {
+    color: rgb(252, 246, 245);
+}
+
+.card {
+    background-color: white;
+}
+
+/* .btn.btn-primary {
+    background-color: rgba(73, 34, 14, 0.496) border-color: rgb(255, 255, 255);
+} */
+
+.imgt {
+    position: absolute;
+    top: 383%;
+    left: 40%;
+    font-family: 'Roboto Mono', monospace;
+    font-size:xx-large;
+}
+
+
+
+
+
+.blr {
+    filter: blur(10px)
+}
+
+.para {
+    font-family: 'Satisfy', cursive;
+}
+
+
+div.scroll {
+    margin: 4px, 4px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.pro img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.pro .card .hovtext {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.pro .card:hover .hovtext {
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.584);
+    color: rgba(255, 255, 255, 0.68);
+    transition: 0.9s;
+}
+
+.rolling {
+    background-color: rgb(255, 255, 255);
+}
+
+.par {
+    color: black;
+}
+
+.about {
+    background-color: rgb(174, 175, 177);
+}
+
+.img3{
+    width: 200px;
+    height: 200px;
+}
